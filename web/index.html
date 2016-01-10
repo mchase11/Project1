@@ -1,0 +1,53 @@
+<!--
+AUTHOR: MADISON CHASE
+PROJECT: PROJECT 1 - ROLODEX
+FILE: index.html
+-->
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <title>Rolodex</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Creates a cascading style sheet for use within this file -->
+    <style type="text/css">
+        .boxed {
+            width: 800px;
+            border: 4px solid #003333;
+            padding: 30px;
+            margin: 20px;
+            background: black;
+            
+        }
+
+        iframe {
+            height: 350px;
+        }
+        
+        h1 {   
+            background-color:plum;
+            color: black;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<!-- The body of the file contains two iFrames and uses the CSS styles.-->
+<body bgcolor=white>
+    <center>
+        <div class="boxed"> 
+            <h1>
+                Rolodex
+            </h1>
+            <hr>
+            <iframe src="search.jsp" name="leftframe" width="200" scrolling="no" > Search </iframe>
+            <iframe src="" name="rightframe" width="550" scrolling="no"> Result Window </iframe> 
+        </div>     
+    </center>
+</body>
+</html>
